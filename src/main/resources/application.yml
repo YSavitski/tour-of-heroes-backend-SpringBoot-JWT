@@ -1,0 +1,8 @@
+jwt:
+  header: Authorization
+  secter: mySecret
+  expiration: 604800
+  route:
+    authentication:
+      path: path
+      refresh: refresh
